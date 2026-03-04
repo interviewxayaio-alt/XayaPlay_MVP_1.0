@@ -366,24 +366,4 @@ const init = (socket, io) => {
 };
 
 
-// function getCurrentPlayers() {
-//   return Object.values(players).map((player) => ({
-//     socketId: player.socketId,
-//     id: player.id,
-//     name: player.name,
-//   }));
-// }
-
-// function getCurrentTables() {
-//   return Object.values(tables).map((table) => ({
-//     id: table.id,
-//     name: table.name,
-//     limit: table.limit,
-//     maxPlayers: table.maxPlayers,
-//     currentNumberPlayers: table.players.length,
-//     smallBlind: table.minBet,
-//     bigBlind: table.minBet * 2,
-//   }));
-// }
-
 module.exports = { init }; 
